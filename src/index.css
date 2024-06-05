@@ -1,3 +1,19 @@
+:root {
+  --body_background: #f6f7f7;
+  --keys_color: #b6dffc;
+  --operator_color: black;
+  --keys_background: #97d6fb;
+  --input_color: #b1b1b1;
+}
+
+[data-theme="dark"] {
+  --body_background: #232426;
+  --keys_color: #0f293c;
+  --operator_color: white;
+  --keys_background: #154462;
+  --input_color: #b1b1b1;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
